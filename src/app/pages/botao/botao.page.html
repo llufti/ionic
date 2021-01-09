@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Botão</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h3>Botão Padrão</h3>
+  <ion-button>Nome do Botão</ion-button>
+  <ion-button hrfe="#">Ancora</ion-button>
+
+  <ion-button color=dark>Nome do Botão</ion-button>
+
+  <h3>Expend</h3>
+  <ion-button expand="full">Full do Botão</ion-button>
+  <ion-button expand="block">Blck Botão</ion-button>
+
+  <h3>Fill</h3>
+  <ion-button expand="full" fill="outline">Full do Botão</ion-button>
+  <ion-button expand="block" fill="outline">Block Botão</ion-button>
+
+  <h3>Botão Icones</h3>
+  <ion-button>
+    <ion-icon slot="start" name="star"></ion-icon>
+    Left Icon
+  </ion-button>
+
+  <ion-button>
+    Right Icon
+    <ion-icon slot="end" name="star"></ion-icon>
+  </ion-button>
+
+  <ion-button>
+    <ion-icon slot="icon-only" name="star"></ion-icon>
+  </ion-button>
+  <h3>Tamanhos Botão</h3>
+  <ion-button size="large">Large</ion-button>
+  <ion-button>Default</ion-button>
+  <ion-button size="small">Small</ion-button>
+
+  <ion-button expand="full" color="danger" (click)="showPageHome()">Full do Botão</ion-button>
+
+</ion-content>
