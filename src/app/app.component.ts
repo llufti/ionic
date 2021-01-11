@@ -61,6 +61,14 @@ export class AppComponent implements OnInit {
       title: 'Grid',
       url: 'grid',
       icon: 'construct'
+    },{
+      title: 'Infinit Scroll',
+      url: 'infinitescroll',
+      icon: 'construct'
+    },{
+      title: 'Input',
+      url: 'input',
+      icon: 'construct'
     }
 
 
