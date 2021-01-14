@@ -69,7 +69,42 @@ export class AppComponent implements OnInit {
       title: 'Input',
       url: 'input',
       icon: 'construct'
+    },{
+      title: 'List',
+      url: 'list',
+      icon: 'construct'
+    },{
+      title: 'Progress Bar',
+      url: 'progressbar',
+      icon: 'construct'
+    },{
+      title: 'Refresher',
+      url: 'refresher',
+      icon: 'construct'
+    },{
+      title: 'Reoder',
+      url: 'reoder',
+      icon: 'construct'
+    },{
+      title: 'Selected',
+      url: 'selected',
+      icon: 'construct'
+    },{
+      title: 'Togle',
+      url: 'togle',
+      icon: 'construct'
+    },{
+      title: 'Search Bar',
+      url: 'searchbar',
+      icon: 'construct'
+    },{
+      title: 'Search Bar',
+      url: 'segment',
+      icon: 'construct'
     }
+    
+
+    
 
 
     
